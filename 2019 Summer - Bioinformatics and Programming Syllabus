@@ -1,0 +1,119 @@
+Biology 589: Bioinformatics and Programming		Summer 2019 - Session 2
+Blended Course: Online and In-Person
+
+########################################################################
+
+Instructor: Dr. Christopher Stieha		Office Hours (by appointment)
+Office: Roddy 273						
+Phone: (717) 871 – 4081					
+Email: FirstName.LastName ||at|| millersville
+
+Email policy: 	Barring unusual circumstances, I will respond within two business days.  If you do not receive a response within two business days, please resend the email because it did not reach me.  Although I will attempt to respond quickly, please do not expect a response after 5 pm.
+
+########################################################################
+
+TEXTBOOKS
+
+Required
+
+Shaw, Z. 2017. Learn Python 3 the Hard Way: A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code. Pearson, New York, NY, USA.  ISBN-13: 978-0321884916
+
+Chang, J., B. Chapman, I. Friedbreg, T. Hamerlryck, M. de Hoon, P. Cock, T. Antao, E. Talevich, and B. Wilczyński. 2018. Biopython Tutorial and Cookbook (Biopython 1.73).  Accessed 10 June 2019.
+http://biopython.org/DIST/docs/tutorial/Tutorial.html
+
+Supplemental Online Material
+
+Sweigart, A. 2015.  Automate the Boring Stuff with Python.  No Starch Press, San Francisco, CA, USA. ISBN-13: 978-1593275990
+Available online at https://automatetheboringstuff.com/ 
+Updates at https://nostarch.com/automatestuff
+
+Chacon, S. and B. Straub.  2014. Pro Git, 2nd Edition.  Apress Media LLC, NeW York, NY, USA. ISBN-13: 978-1484200773
+Available online at https://git-scm.com/book/en/v2
+
+########################################################################
+
+COURSE OBJECTIVES
+
+By the end of this course, you should be able to
+1) Define, understand, and apply programming terminology and techniques
+2) Solve problems and create tools using correct programming techniques
+3) Develop basic structure of programming and organizing programming projects using files, folders, and git
+3) Implement programming techniques and bioinformatic tools in the python programming language
+4) Design, implement, analyze, interpret, and report results of analyses in bioinformatics
+
+########################################################################
+
+SUCCESS
+
+Please inform me of any disabilities or special needs that may impact your performance in this course.  I will do my best to accommodate you and support your success in this class.   
+
+ATTENDANCE
+
+Attendance is required as daily updates to the course website (https://github.com/sdmiller93/Summer-I-Bioinformatics---Programming-Foundations) and partipation in meetings, whether in-person, online, or over the phone.  If you miss a day, you must contact me BEFORE the next class to determine if you are eligible to make up the points.  Valid excuses are documented illness or injury, death in the family, jury duty, participation in University-sponsored activities, etc. on a case-by-case basis.  If participating in a University-sponsored activity, you must inform me of the absence at the beginning of the course.  Even if you do not have a valid excuse, you are responsible for the material that we covered.  
+
+########################################################################
+
+GRADING
+
+Activity				Course Points		Percentage of Grade	
+Programming Exercises		100						50%	
+Final Project				100						50%
+Total						200
+
+Programming Exercises: Daily exercises to teach programming concepts and bioinformatic tools and test on the understanding of the techniques and tools.  Completed excercises to be uploaded daily to course website.
+
+Final Project: Project designed in collaboration with the instructor and research advisors to analyze a data set using tools and techniques developed in the class.   Final results to reported as a written report as well as presentation.
+
+Grading Scale: The lower limits for each letter grade is: A = 93%; A- = 90%; B+ = 87%; B = 83%; B- = 80%; C+ = 77%; C = 73%; C- = 70%; D+ = 67%; D = 63%; D- = 60%. Anything below 60% is an F.
+
+########################################################################
+
+Honesty
+
+Cheating and plagiarism, defined in Millersville University’s Student Handbook and Academic Honesty and Dishonesty brochure, will result in a 0 for the exam or assignment.  Further action may be taken, such as referral to Student Affairs and failure of the class.  I understand you talk to your fellow students and may work together on in-class exercises, but you must turn in your own work.
+			
+########################################################################
+			
+TITLE IX
+
+Millersville University and its faculty are committed to assuring a safe and productive educational environment for all students. In order to meet this commitment, comply with Title IX of the Education Amendments of 1972, 20 U.S.C. §1681, et seq., and act in accordance with guidance from the Office for Civil Rights, the University requires faculty members to report to the University’s Title IX Coordinator incidents of sexual violence shared by students. The only exceptions to the faculty member’s reporting obligation are when incidents of sexual violence are communicated by a student during a classroom discussion, in a writing assignment for a class, or as part of a University-approved research project. Faculty members are obligated to report to the person designated in the University Protection of Minors policy incidents of sexual violence or any other abuse of a student who was, or is, a child (a person under 18 years of age) when the abuse allegedly occurred.
+Information regarding the reporting of sexual violence, and the resources that are available to victims of sexual violence, is available at www.millersville.edu/titleix
+
+########################################################################
+
+ACTIVITY SCHEDULE
+
+Lecture topics may change depending on the rate at which we are covering material.  If class is canceled due to University closing and delays, supplementary work may be required.  
+
+Date		Topic 											Exercises					
+10 June		Install, printing, Math and Operators			Shaw 0, 1, 2, 3; set up git
+11 June		Variables, Strings, and Printing				Shaw 4, 5, 6, 7
+12 June		Printing, Escape Sequences						Shaw 8, 9, 10, 11
+13 June		Prompting in code and command line				Shaw 11, 12, 13, 14
+14 June		Reading and Writing Files						Shaw 15, 16, 17
+
+17 June		Functions										Shaw 18, 19, 20, 21
+18 June		Strings, Bytes, and Econdings					Shaw 23, 24, 25
+19 June		Booleans and If-statements						Shaw 27, 28, 29, 30
+20 June		Control Flow and lists							Shaw 31, 32, 33, 34
+21 June		Branches, Debugging, Lists and Review			Shaw 35, 36, 37, 38
+
+24 June		Dictionaries 									Shaw 39, 40
+25 June		Object-Oriented (OO) Programming				Shaw 41, 42
+26 June		How to Program									Shaw 43
+27 June		OO: Inheritance and Composition					Shaw 44, 45
+28 June		Review
+
+01 July		Biopython Quick Start							Biopython Ch 2
+02 July		Sequence Objects and Annotation					Biopython Ch 3, 4
+03 July		Sequence Input/Ouput							Biopython Ch 5
+04 July		HOLIDAY
+05 July		Multiple Sequence Alignment Objects				Biopython Ch 6
+
+08 July		BLAST											Biopython Ch 7, 8
+09 July		Accessing NCBI's Entrez Database				Biopython Ch 9
+10 July		Cluster Analysis								Biopython Ch 15
+11 July		KEGG											Biopython Ch 18
+12 July		Review											Biopython Ch 20
+
+
