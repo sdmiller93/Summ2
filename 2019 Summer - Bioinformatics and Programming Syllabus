@@ -56,8 +56,8 @@ Attendance is required as daily updates to the course website (https://github.co
 GRADING
 
 Activity				Course Points		Percentage of Grade	
-Programming Exercises		100						50%	
-Final Project				100						50%
+Programming Exercises				100			50%	
+Final Project					100			50%
 Total						200
 
 Programming Exercises: Daily exercises to teach programming concepts and bioinformatic tools and test on the understanding of the techniques and tools.  Completed excercises to be uploaded daily to course website.
@@ -85,35 +85,35 @@ ACTIVITY SCHEDULE
 
 Lecture topics may change depending on the rate at which we are covering material.  If class is canceled due to University closing and delays, supplementary work may be required.  
 
-Date		Topic 											Exercises					
+Date		Topic 							Exercises					
 10 June		Install, printing, Math and Operators			Shaw 0, 1, 2, 3; set up git
-11 June		Variables, Strings, and Printing				Shaw 4, 5, 6, 7
-12 June		Printing, Escape Sequences						Shaw 8, 9, 10, 11
-13 June		Prompting in code and command line				Shaw 11, 12, 13, 14
-14 June		Reading and Writing Files						Shaw 15, 16, 17
+11 June		Variables, Strings, and Printing			Shaw 4, 5, 6, 7
+12 June		Printing, Escape Sequences				Shaw 8, 9, 10, 11
+13 June		Prompting in code and command line			Shaw 11, 12, 13, 14
+14 June		Reading and Writing Files				Shaw 15, 16, 17
 
-17 June		Functions										Shaw 18, 19, 20, 21
-18 June		Strings, Bytes, and Econdings					Shaw 23, 24, 25
-19 June		Booleans and If-statements						Shaw 27, 28, 29, 30
-20 June		Control Flow and lists							Shaw 31, 32, 33, 34
+17 June		Functions						Shaw 18, 19, 20, 21
+18 June		Strings, Bytes, and Econdings				Shaw 23, 24, 25
+19 June		Booleans and If-statements				Shaw 27, 28, 29, 30
+20 June		Control Flow and lists					Shaw 31, 32, 33, 34
 21 June		Branches, Debugging, Lists and Review			Shaw 35, 36, 37, 38
 
-24 June		Dictionaries 									Shaw 39, 40
-25 June		Object-Oriented (OO) Programming				Shaw 41, 42
-26 June		How to Program									Shaw 43
-27 June		OO: Inheritance and Composition					Shaw 44, 45
+24 June		Dictionaries 						Shaw 39, 40
+25 June		Object-Oriented (OO) Programming			Shaw 41, 42
+26 June		How to Program						Shaw 43
+27 June		OO: Inheritance and Composition				Shaw 44, 45
 28 June		Review
 
-01 July		Biopython Quick Start							Biopython Ch 2
-02 July		Sequence Objects and Annotation					Biopython Ch 3, 4
-03 July		Sequence Input/Ouput							Biopython Ch 5
+01 July		Biopython Quick Start					Biopython Ch 2
+02 July		Sequence Objects and Annotation				Biopython Ch 3, 4
+03 July		Sequence Input/Ouput					Biopython Ch 5
 04 July		HOLIDAY
-05 July		Multiple Sequence Alignment Objects				Biopython Ch 6
+05 July		Multiple Sequence Alignment Objects			Biopython Ch 6
 
-08 July		BLAST											Biopython Ch 7, 8
-09 July		Accessing NCBI's Entrez Database				Biopython Ch 9
-10 July		Cluster Analysis								Biopython Ch 15
-11 July		KEGG											Biopython Ch 18
-12 July		Review											Biopython Ch 20
+08 July		BLAST							Biopython Ch 7, 8
+09 July		Accessing NCBI's Entrez Database			Biopython Ch 9
+10 July		Cluster Analysis					Biopython Ch 15
+11 July		KEGG							Biopython Ch 18
+12 July		Review							Biopython Ch 20
 
 
