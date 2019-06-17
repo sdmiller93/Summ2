@@ -24,7 +24,8 @@ print(fat_cat)
 # assign variables
 spongebob = "spongebob squarepants"
 squidward = "squidward tentacles"
-play = "\t{spongebob} likes to play at Jellyfish fields"
+work = "Krusty Krab"
+play = f"\t{spongebob} likes to play at Jellyfish fields"
 employment = f"They both work at the \n{work}"
 
 print(f"Under the sea lives {spongebob} and {squidward}.")
@@ -32,7 +33,7 @@ print(play)
 print(employment)
 
 friends = "{} {} {}" 
-print(friends.format("Sandy", "Patrick", "Larry")
+print(friends.format("Sandy", "Patrick", "Larry"))
 
 menu = '''
 Menu:

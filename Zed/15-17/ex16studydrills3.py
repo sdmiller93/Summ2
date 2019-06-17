@@ -30,7 +30,7 @@ line3 = input("line 3: ")
 print("I'm going to write these to my file.")
 
 # target (the file that was opened and read in) module write to it the three lines invoking new lines after each input wih the \n
-lines = ({line1} + \n{line2} + \n{line3})
+lines = f"{line1} \n{line2} \n{line3} \n"
 target.write(lines)
 
 # close (save) the file
