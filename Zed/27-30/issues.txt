@@ -1,0 +1,20 @@
+# this is the issues file for exercises 27-30 of "Learn python3 the hard way - Zed Shaw"
+# exercises are separated out by #
+
+# exercise 28
+
+I got the following incorrect (predicted the opposite of what it really is), can you explain them?
+
+not(True and False) = False
+
+not (10 == 1 or 1000 == 1000)
+
+not ("testing" == "testing" and "Zed" == "Cool Guy") = False
+
+3 == 3 and (not ("testing" == "testing" or "Python" == "Fun")) = True
+
+Can you explain what he is asking for in Study Drills # 1?
+
+
+# exercise 30
+can we go over elif and how it works more specifically? I'm having a hard time tracing it. 

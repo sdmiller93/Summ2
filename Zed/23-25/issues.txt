@@ -1,4 +1,4 @@
-# issues for exercises 21-25 of "Learn Python the Hard Way - Zed Shaw" 
+# issues for exercises 21-25 of "Learn Python3 the Hard Way - Zed Shaw" 
 # each issue separated by #
 
 
