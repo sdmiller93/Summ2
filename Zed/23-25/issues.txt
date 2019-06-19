@@ -2,3 +2,10 @@
 # each issue separated by #
 
 
+# exercise 23
+Why am I not typing "from sys import argv" and instead typing "import sys" and then listing the arguments. Is it because I am using more than the argv function from sys?
+
+the third argument at the top of the script, errors, he executes using 'strict' for that argument. What is that exactly? Strict encoding?
+
+
+
