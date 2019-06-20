@@ -1,0 +1,15 @@
+# This is the issues file for exercises 31-34 of "Learn Python3 the Hard Way - Zed Shaw"
+# exercises separated by #
+
+# no issue with 31. I just really enjoy it haha - you should play my game. I made doors #3 and 4
+
+# exercise 32
+study drills #2. 
+
+# exercise 33 
+study drills #1 (and 2 and 3 since they depend on 1)
+is he wanting me to keep i?
+
+# exercise 34
+how do I use python to check my answers? I know i can print [1] but how would I show 'first'
+study drills 1 - Because years are ordered?
