@@ -1,0 +1,11 @@
+# This is the issues file for exercises 35-38 of "Learn python3 the hard way - Zed Shaw"
+# exercises are seperated out by #'s
+
+# exercise 35
+	what is the purpose of the infinite loop?
+	I'm having trouble seeing the map of the game. Can we discuss the flow?
+	Can we discuss study drills 4 and 5
+
+# exercise 36
+	still need to incorporate a list somehow.
+
