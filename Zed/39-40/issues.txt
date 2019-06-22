@@ -1,0 +1,18 @@
+# Issues file for exercises 39 & 40 of "Learn Python3 the Hard Way" - Zed Shaw
+# exercises are separated out by #'s
+
+###############################################################################
+
+# exercise 39
+	Can I list several things under one reference? For instance, New York, has NY. For cities, could I then list like Ithica, Buffalo, Syracuse?
+	
+	Can you explain the code on lines 47-50. 
+		More specifically; we say for argument? state and argument abbrev in the list of states dictionary? we want to print state and then abbrev in a string. 
+			1. is abbrev coming from the items() portion of that code?
+			2. How does it know the order of what I want things. Perhaps I wanted the abbrev first in the string before the states. How would I get that?
+
+	An answer for study drills # 3?
+
+
+# exercise 40
+	

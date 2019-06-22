@@ -9,3 +9,14 @@
 # exercise 36
 	still need to incorporate a list somehow.
 
+# exercise 37
+	can you explain what modulus is? 
+	also, will we get into some statistics when we start working with datasets, and data viz?
+# exercise 38	
+	Why are the items listed in more_stuff being appended to the list backwards. For example the last things on the list are
+	corn, banana, girl, boy but in the main list once it's added it reads
+	boy, girl, banana, corn
+
+	.pop removes an element from a specified position but we don't specify a position. Can you explain this?
+	
+	can you explain line 22: print(' '.join(stuff))
