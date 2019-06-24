@@ -1,11 +1,27 @@
+# Email sent 24 June 2019 - cs
+
 # issues for exercises 21-25 of "Learn Python3 the Hard Way - Zed Shaw" 
 # each issue separated by #
+
 
 
 # exercise 23
 Why am I not typing "from sys import argv" and instead typing "import sys" and then listing the arguments. Is it because I am using more than the argv function from sys?
 
+#######################
+It boils down to ease of typing and how much you want to import.
+https://www.geeksforgeeks.org/import-module-python/
+
+"import sys" brings in all the things listed in sys, but to use them, you have to type sys. before each thing.  In the example sys.argv is used to denote this.
+
+"from sys import argv" means to only bring in the argv and load it up without needing to define the module.  This is why in the previous examples you only had to write argv (and not sys.argv)
+#######################
+ 
+
 the third argument at the top of the script, errors, he executes using 'strict' for that argument. What is that exactly? Strict encoding?
 
-
-
+#######################
+Good question!  You have to follow the trail of errors.  In the first function main, errors is not used, it is only passed on to the next function print_line.  In the function print_line, you have two places where errors is used: in next_lang.encode and raw_bytes.decode.  encode() is performed on the next_lang variable and decode() is performed on the raw_bytes variable, so time to look up those functions
+google "python encode" https://www.programiz.com/python-programming/methods/string/encode
+google "python decode" https://www.tutorialspoint.com/python/string_decode.htm
+#######################
