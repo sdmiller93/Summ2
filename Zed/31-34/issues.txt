@@ -1,15 +1,35 @@
+#emailed 24 June 2019 - cs
+
 # This is the issues file for exercises 31-34 of "Learn Python3 the Hard Way - Zed Shaw"
 # exercises separated by #
 
 # no issue with 31. I just really enjoy it haha - you should play my game. I made doors #3 and 4
 
+#hahaha
+# use else: to catch the cases for when someone doesn't answer or types in something that you aren't expecting.
+# for example, what happens if you choose option 4 with respect to Baxter?  Right now, your program ends (which may be a good thing given your game ;) ).
+
 # exercise 32
 study drills #2. 
+
+# can you make it so that when you type in elements, you get [1,2,3,4,5,6] without using a for-loop?
+# there are a couple of ways, with hard coding being one of the simplet: elements = [1,2,3,4,5,6]
+# but what is you wanted it more dynammic?
+# https://stackoverflow.com/questions/18265935/python-create-list-with-numbers-between-2-values
+# what about  elements.append(range(0,6))?  How could you make that work?
 
 # exercise 33 
 study drills #1 (and 2 and 3 since they depend on 1)
 is he wanting me to keep i?
 
+# you do keep i.  You want to make a function where you can change that 6 on line 4 to be whatever number that you want.
+
+
 # exercise 34
 how do I use python to check my answers? I know i can print [1] but how would I show 'first'
+
+# with the ordinal, you will always have to subtract one from the value of the ordinal number.  So animals[0] is the same as the first animal, animal[1-1]
+
 study drills 1 - Because years are ordered?
+# yeap.  https://en.wikipedia.org/wiki/Anno_Domini
+
