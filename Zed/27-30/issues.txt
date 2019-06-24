@@ -1,3 +1,5 @@
+# emailed 24 June 2019 -cs
+
 # this is the issues file for exercises 27-30 of "Learn python3 the hard way - Zed Shaw"
 # exercises are separated out by #
 
@@ -6,15 +8,25 @@
 I got the following incorrect (predicted the opposite of what it really is), can you explain them?
 
 not(True and False) = False
+# what is True and False by itself?  Now flip it.
 
 not (10 == 1 or 1000 == 1000)
+# Take it in parts.  First do ANS1 = 10 == 1.  Then do ANS2 = 1000 == 1000
+# now do ANS1 or ANS2
+# now flip it.
 
 not ("testing" == "testing" and "Zed" == "Cool Guy") = False
+# again take it in parts.  Remember that == and != get priority over and
 
 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun")) = True
+# I think that you forgot the not.
 
 Can you explain what he is asking for in Study Drills # 1?
-
+# Look up comparison operators in python.
+# https://thomas-cokelaer.info/tutorials/python/boolean.html
 
 # exercise 30
 can we go over elif and how it works more specifically? I'm having a hard time tracing it. 
+# We can talk about it.  The simplest way to think about it is as a series of if statements that you procede from the begining until you get a true statement or run out of statements (the else section)
+# https://www.programiz.com/python-programming/if-elif-else
+# that website has some good flow diagrams.
