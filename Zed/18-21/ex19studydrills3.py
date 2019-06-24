@@ -3,10 +3,10 @@
 # create the function
 def whiskey(brand, volume):
 	print(f"You have {volume} mL of {brand} whiskey.")
-	
+
 # 1
 # Give the contents directly
-print("Directly given:")
+#print("Directly given:")
 whiskey = "Knob Creek", 50
 
 # 2

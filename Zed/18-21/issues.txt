@@ -1,3 +1,6 @@
+SENT EMAIL 24 June 2019 -cs
+
+
 # exercise 19 strudy drills #3 
 ERROR: 
 "Directly given:
@@ -8,15 +11,37 @@ TypeError: 'tuple' object is not callable"
 
 probably because I am trying to use strings and numbers in my function? And what the heck is a tuple?
 
+###################
+The issue is  this line:
+whiskey = "Knob Creek", 50
+
+That overwrites your function whiskey, which is interesting.  Other programming languages do allow you to name variables and functions the same thing and then the programming language figures it out.
+https://stackoverflow.com/questions/22161717/python-function-and-variable-with-same-name
+
 Also what are other ways to do this? I could only come up with that many and he says there are 10.
 
+###################
+From my understanding of this study drill, he just wants you to realize that there are multiple ways to engage with functions and get the data inside and how/when you give values to the variable names.  I think that you are fine.
+###################
 
 # exercise 20 study drills #5
 I see that += modifies the 'object-in-place' instead of building a new one. So does this mean I can use that in place of the current_line + 1 areas?
+
+###################
+You can use it in place.  It's a useful code to update a counter, like if you are counting sequences separately for your counter in your for-loop.
+###################
 
 
 # exercise 21
 need help with the 'puzzle' and figuring out how it's doing what it's doing. 
  so basically, can we look over study drills # 1 -3 for this exercise?
+
+###################
+We can look over them.  Before we talk, read up on prefix, postfix, and infix notation
+https://en.wikipedia.org/wiki/Infix_notation
+https://en.wikipedia.org/wiki/Reverse_Polish_notation (also called postfix)
+https://en.wikipedia.org/wiki/Polish_notation (also called prefix)
+###################
+
 
 
