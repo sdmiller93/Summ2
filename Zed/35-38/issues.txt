@@ -1,3 +1,5 @@
+#emailed 25 June 2019 -cs
+
 # This is the issues file for exercises 35-38 of "Learn python3 the hard way - Zed Shaw"
 # exercises are seperated out by #'s
 
@@ -5,18 +7,67 @@
 	what is the purpose of the infinite loop?
 	I'm having trouble seeing the map of the game. Can we discuss the flow?
 	Can we discuss study drills 4 and 5
+	
+####################
+Infinite loops keep you in the program until you as the programmer force an exit or the user chooses to quit.  If the loop is not there, the program would only run once.  Think of a video game.  What would happen if everytime you died you had to go back and start up the program again.  Infinite loops allow the program to keep running.
+They are good to know about, but you *will* not use them in your stuff, as your stuff is run once and be done.  Also know that they exist and a very easy to create unintentially.
+
+We can discuss the flow and drills 4 and 5.
+####################
 
 # exercise 36
 	still need to incorporate a list somehow.
 
+####################
+Wow!  Awesome!  Hilarious!
+
+You do a few bugs, with the main one being what happens if people don't type in exactly what you expect.  For example, what if you type in Pam and not pam?  You do (try to) handle this in other functions (see next comment).
+
+line 132 (133 with my change) (and other places throughout the code)
+In kevin(), I typed in "help the turtle" and it gave me oscar's outcome.
+remember the order of operations:
+"oscar" or "Oscar" or "secret" in choice is "oscar" or "Oscar" of ("secret" in choice)
+you want choice in {"oscar", "Oscar", "secret"}
+although this only matches word for word.  So typing in "help the turtle" won't be in {"help", "the", "turtle"}
+to do that you need more checks ("help" in choice) or ("the" in choice) or ("turtle" in choice)
+
+https://stackoverflow.com/questions/20002503/why-does-a-b-or-c-or-d-always-evaluate-to-true
+https://medium.com/codervlogger/python-how-to-test-multiple-variables-against-a-value-7338857b1fec
+
+Good use of in!
+
+
+####################
+
+
+
+
 # exercise 37
 	can you explain what modulus is? 
+	# modulus is the remainder from division.
+	# so if you did 4 % 2, you would get 0 because 2 divides in 4 two times with no remainder.
+	# on the other hand, 5 % 2 would give you 1
+	
 	also, will we get into some statistics when we start working with datasets, and data viz?
+	#sure, someone has been bugging me about PCA for a while
+	# it will force me to brush up on my multivariate statistics
+	
+	
 # exercise 38	
 	Why are the items listed in more_stuff being appended to the list backwards. For example the last things on the list are
 	corn, banana, girl, boy but in the main list once it's added it reads
 	boy, girl, banana, corn
 
 	.pop removes an element from a specified position but we don't specify a position. Can you explain this?
+
+# to answer both of these at the same time: by definition pop always takes/removes the last element	
+# print off more_stuff and you will see that the list is shorter
+# list of functions that you can perform on a list https://docs.python.org/2/tutorial/datastructures.html
+# also you mean see reference to push in other program languages, this adds an element to the end of the list
+# appears that .append() is the python function
 	
 	can you explain line 22: print(' '.join(stuff))
+
+#it catenates all the elements of list stuff using whatever comes before the . in .join(stuff)
+# https://www.geeksforgeeks.org/join-function-python/
+	

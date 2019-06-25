@@ -129,11 +129,12 @@ def kevin():
 
 	choice = input("> ")
 	
-	if "oscar" or "Oscar" or "secret" in choice:
+#	if "oscar" or "Oscar" or "secret" in choice:
+	if choice in {"oscar", "Oscar", "secret"}:
 		print("Oh no, this just got more difficult.")
 		print("The Senator is here!")
 		senator()
-	if "turtle" in choice:
+	elif "turtle" in choice:
 		print("You are enormously proud of what you did for that turtle!")
 		exit(0)
 	else:
