@@ -15,4 +15,4 @@
 
 
 # exercise 40
-	
+	Can you run my ex40studydrills.py script and help me find the error?
