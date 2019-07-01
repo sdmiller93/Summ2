@@ -2,12 +2,11 @@
 # helpful link: https://micropyramid.com/blog/understand-self-and-__init__-method-in-python-class/
 
 # create a class called Song -- class <ClassName>(superclass) in the absence of anything else, the superclass should always be object, the root of all classes in Python
-class Song(object):
+class Song:
 	
 	# create the constructor to be called when an object is created - allows the class to initialize the attributes of a class
-	def _init_(self, lyrics):
+	def __init__(self, lyrics):
 		self.lyrics = lyrics # the self keyword can access the attributes and methods of the class created
-
 	def sing(self):
 		for line in self.lyrics:
 			print(line)  # create a function called sing and when called will print the string associated with the first appendage
