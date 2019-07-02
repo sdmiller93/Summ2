@@ -1,0 +1,43 @@
+# 2.4.1
+
+I have two issues: 
+	1. I can't use nano in python. I tried downloading nano-python which downloaded but when I call it, I get this error
+
+>>> nano-python
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nano' is not defined
+>>> nano
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nano' is not defined
+>>> import nano
+>>> nano ls_orchid.fasta
+  File "<stdin>", line 1
+    nano ls_orchid.fasta
+                 ^
+SyntaxError: invalid syntax
+>>> nano
+<module 'nano' from '/usr/local/lib/python2.7/site-packages/nano/__init__.pyc'>
+
+	2. So eventually, I just open TextEdit and save it to my Desktop. Then I try to run this code but it doesn't seem to like my path. 
+
+>>> from Bio import SeqIO
+>>> for seq_record in SeqIO.parse("~/Desktop/ls_orchid.fasta", "fasta"):
+...     print(seq_record.id)
+...     print(repr(seq_record.seq))
+...     print(len(seq_record))
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/local/lib/python2.7/site-packages/Bio/SeqIO/__init__.py", line 636, in parse
+    with as_handle(handle, mode) as fp:
+  File "/usr/local/Cellar/python@2/2.7.16/Frameworks/Python.framework/Versions/2.7/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/site-packages/Bio/File.py", line 113, in as_handle
+    with open(handleish, mode, **kwargs) as fp:
+IOError: [Errno 2] No such file or directory: '~/Desktop/ls_orchid.fasta'
+
+
+So I'm obviously missing something simple. Can't I work with Biopython from the terminal without invoking python at the beginning? I prefer that rather than
+	using python's interpreter. 

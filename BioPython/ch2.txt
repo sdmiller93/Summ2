@@ -1,0 +1,35 @@
+# Chapter 2: http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc6
+
+sierramiller@MacBook-Air:~/Desktop/Summer/Summ2/BioPython$ python
+Python 2.7.16 (default, Mar  4 2019, 09:02:22) 
+[GCC 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> import Bio
+>>> from Bio.Seq import Seq
+>>> my_seq = Seq("AGTACACTGGT")
+>>> my_seq
+Seq('AGTACACTGGT')
+>>> print(my_seq)
+AGTACACTGGT
+>>> my_seq.alphabet
+Alphabet()
+
+# we have a sequence object with a generic alphabet (we haven't specified if this is a DNA or protein sequence)
+
+# In addition to having an alphabet, the Seq object differs from the Python string in the methods it supports. You can’t do this with a plain string:
+
+
+>>> my_seq
+Seq('AGTACACTGGT')
+>>> my_seq.complement()
+Seq('TCATGTGACCA')
+>>> my_seq.reverse_complement
+<bound method Seq.reverse_complement of Seq('AGTACACTGGT')>
+>>> my_seq.reverse_complement()
+Seq('ACCAGTGTACT')
+
+
+
+# 2.4
+

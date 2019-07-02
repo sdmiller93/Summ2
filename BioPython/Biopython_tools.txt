@@ -1,0 +1,13 @@
+# Sequence Work
+1. create a variable and input your sequence
+2. variable.complement() will give the complement of the sequence stored in the variable
+3. variable.reverse_complement() will give the reverse complement of the sequence stored in the variable
+
+
+# SeqRecord class 
+1. Holds a sequence (as a Seq object) with additional annotation: identifier, name, and description
+2. Bio.SeqIO module for reading and writing sequence file formats works with SeqRecord objects (ch 5)
+
+# Ch2.4: PARSING SEQUENCE FILE FORMATS
+ 
+
