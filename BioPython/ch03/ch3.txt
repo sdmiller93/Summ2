@@ -1,0 +1,31 @@
+# 3.3
+        Calling a 'slice' of the sequence: my_seq[4:12]
+                1. Remember that python starts counting at 0
+                2. Python includes 4 but excludes 12 ---- why?
+
+	
+	Start, Stop, and Stride 
+		stride = step size, default = 1
+	We can get the first, second, and third codon positions of the DNA sequence
+		
+
+	Add sequences together using the sum function (optional start value argument (default = 0)
+		sum(list_of_seqs, Seq("", generic_dna))
+# 3.8
+	Transcription
+	Biopython works from the coding strand (backward from Biology) because we can easily just change out the T for U's
+
+	Doing a true biological transcription - do it in two steps
+		template_dna.reverse_complement().transcribe()
+
+	mRNA --> coding DNA strand (U --> T)
+		back_transcribe()
+
+	Translate
+		mrna.translate()
+
+	Can specify which NCBI table to use in the case of mitochondrial or the shorter table featured in GenBank files
+
+	Translate to the first stop codon via
+		coding_dna.translate(to_stop=True)
+			** the stop codon itself is not translated and stop symbol is not included at the end of your protein seq

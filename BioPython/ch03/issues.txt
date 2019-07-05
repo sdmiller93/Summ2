@@ -1,0 +1,46 @@
+# 3.1
+	Can we discuss what 3.1 is doing? I'm getting confused as to what the point of this section is doing- may be a question I need to ask Dr Hepfer
+	
+	Can we also talk about what is going on here:
+
+>>> my_prot
+Seq('AGTACACTGGT', IUPACProtein())
+>>> my_prot.alphabet
+IUPACProtein()
+	
+	When you call on the variable my_prot it shows what I assigned to it, then we specify .alphabet -- what exactly is it returning?
+
+
+# 3.2
+	Can we go over what each character in this code is doing? I know it returns the letters/bases at each position in the string but I don't know what each character 
+	is contributing in order to do that
+
+>>> for index, letter in enumerate(my_seq):
+...     print("%i %s" % (index, letter))	
+
+
+	What does 'a non-overlapping count' mean?
+
+The Seq object has a .count() method, just like a string. Note that this means that like a Python string, this gives a non-overlapping count:
+
+>>> from Bio.Seq import Seq
+>>> "AAAA".count("AA")
+2
+>>> Seq("AAAA").count("AA")
+2
+
+	Does it just mean, count intervals of "AA" residues? In this case, "AA" appears twice?
+
+
+# 3.3
+	Calling a 'slice' of the sequence: my_seq[4:12]
+		1. Python includes 4 but excludes 12 ---- why?
+
+	Get first codon positions by:
+		>>> my_seq[0::3]
+
+	Get the reverse of the string by:
+
+>>> my_seq[::-1]
+Seq('CGCTAAAAGCTAGGATATATCCGGGTAGCTAG', IUPACUnambiguousDNA())	
+

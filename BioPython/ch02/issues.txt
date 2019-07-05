@@ -1,0 +1,26 @@
+# 2.4.1
+
+I have two issues: 
+	1. I can't use nano in python. I tried downloading nano-python which downloaded but when I call it, I get this error
+
+>>> nano-python
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nano' is not defined
+>>> nano
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nano' is not defined
+>>> import nano
+>>> nano ls_orchid.fasta
+  File "<stdin>", line 1
+    nano ls_orchid.fasta
+                 ^
+SyntaxError: invalid syntax
+>>> nano
+<module 'nano' from '/usr/local/lib/python2.7/site-packages/nano/__init__.pyc'>
+
+	To get around this I open my TextEditor Application (GUI) and paste the info then reference the file using the path.
+
+
+	Is there a way to use nano or something similar within python interpreter?

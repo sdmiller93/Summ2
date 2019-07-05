@@ -8,6 +8,17 @@
 1. Holds a sequence (as a Seq object) with additional annotation: identifier, name, and description
 2. Bio.SeqIO module for reading and writing sequence file formats works with SeqRecord objects (ch 5)
 
-# Ch2.4: PARSING SEQUENCE FILE FORMATS
+# DNA, RNA, and Proteins
+1. Bio.Alphabet.IUPAC provides basic definitions for proteins, DNA, and RNA
+2. ExtendedIUPACCProtein class gives additional elements: U (Sec), O (Pyl), and ambiguous symbols B (Asx), Z (Glx), J (Xle), X (Xxx)
+2. DNA = basic letters, IUPACAmbiguousDNA provides ambiguity letters for every possible situation
+3. ExtendedIUPACDNA allows letters for modified bases
+4. RNA = IUPACAmbiguousRNA or IUPACUnambiguousRNA
+
+# 3.3
+        Calling a 'slice' of the sequence: my_seq[4:12]
+                1. Remember that python starts counting at 0
+                2. Python includes 4 but excludes 12 ---- why?
+
  
 
