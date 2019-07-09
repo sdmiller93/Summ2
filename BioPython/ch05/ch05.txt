@@ -1,0 +1,8 @@
+The workhorse function Bio.SeqIO.parse() is used to read in sequence data as SeqRecord objects. This function expects two arguments:
+
+The first argument is a handle to read the data from, or a filename. A handle is typically a file opened for reading, but could be the output from a command line program, or data downloaded from the internet (see Section 5.3). See Section 24.1 for more about handles.
+The second argument is a lower case string specifying sequence format – we don’t try and guess the file format for you! See http://biopython.org/wiki/SeqIO for a full listing of supported formats.
+The Bio.SeqIO.parse() function returns an iterator which gives SeqRecord objects. Iterators are typically used in a for loop as shown below.
+
+
+
